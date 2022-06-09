@@ -29,10 +29,10 @@ class LugarFragment : Fragment() {
         _binding = FragmentLugarBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        lugarViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+        //val textView: TextView = binding.textHome
+        //lugarViewModel.observe(viewLifecycleOwner) {
+          //  textView.text = it
+      //  }
         return root
     }
 

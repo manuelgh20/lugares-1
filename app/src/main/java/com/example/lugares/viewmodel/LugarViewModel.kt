@@ -8,7 +8,7 @@ import com.example.lugares.repository.LugarRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class LugarViewMode(application: Application) : AndroidViewModel(application) {
+class LugarViewModel(application: Application) : AndroidViewModel(application) {
 
     val getAllData:  LiveData<List<Lugar>>
 
